@@ -27,17 +27,20 @@ div,section,span,ul,li,a{
 }
 
 
-header {
+#pf_header {
+    position: fixed;
     width: 100%;
+    /* z-index: 999; */
     display: flex;
     justify-content: space-between;
     padding: 20px 0px;
-    position: fixed;
     align-items: center;
-    z-index: 1;
+    top: 0;
     height: 55px;
     box-shadow: 0px 5px 10px 0px rgba(108,108, 108, 0.5);
 }
+
+
 
 
 
