@@ -27,7 +27,23 @@ div,section,span,ul,li,a{
 }
 
 
-#pf_header {
+.pf_header {
+    z-index: 900;
+    position: fixed;
+    width: 100%;
+    background-color:#011627 ;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+    align-items: center;
+    top: 0;
+    height: 55px;
+    /* box-shadow: 0px 5px 10px 0px rgba(108,108, 108, 0.5); */
+}
+
+
+#main-header-div {
+    z-index: 1900;
     position: fixed;
     width: 100%;
     display: flex;
@@ -38,7 +54,6 @@ div,section,span,ul,li,a{
     height: 55px;
     box-shadow: 0px 5px 10px 0px rgba(108,108, 108, 0.5);
 }
-
 
 .portfolio_header_menu li {
     list-style: none;
