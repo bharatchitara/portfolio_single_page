@@ -21,14 +21,12 @@ div,section,span,ul,li,a{
 .logo{
     position: absolute;
     left: 72px;
-    top: 20px;
-   
-    
+    top: 20px; 
 }
 
 
 .pf_header {
-    z-index: 900;
+    z-index: 200;
     position: fixed;
     width: 100%;
     background-color:#011627 ;
@@ -131,20 +129,25 @@ span {
 
 /*css for header link sidenav and screen size 630px and below start */
 
-.pf-header-sidenav-button{
-    display: none;
+
+@media screen and (min-width: 631px) and (max-width:39000px) {
+    .pf-header-sidenav-button{
+        display: none;
+    }
 }
 
-@media screen and (max-width:630px) {
+
+@media screen and (min-width: 0px) and (max-width:630px) {
     .portfolio_header_menu{
         display: none;
     }
 
     .pf-header-sidenav-button{
-        display: inline;
+        display: block;
+        z-index:300;
         font-size: 30px;
         cursor:pointer;
-        position: absolute;
+        position: fixed;
         right: 30px;
         top: 25px;
         color: #fff;
@@ -153,13 +156,11 @@ span {
 }
 
 
-
-
 .overlay {
     height: 100%;
     width: 0;
     position: fixed;
-    z-index: 1;
+    z-index: 500;
     top: 0;
     right: 0;
     background-color: #011627;
