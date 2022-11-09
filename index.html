@@ -29,8 +29,8 @@
         <a href = "index.html"> <img class = "logo" src = "images/logo_v1.svg"  alt ="logo" width="60" height="60"></a>
     
         <ul class = "portfolio_header_menu"> 
-            <li> <a class = "effect-1" href= "#"> Home</a></li>
-            <li> <a class = "effect-1" href= "#"> About</a></li>
+            <li> <a class = "effect-1" href= "#home-outer"> Home</a></li>
+            <li> <a class = "effect-1" href= "#about-outer"> About</a></li>
             <li> <a class = "effect-1" href= "#"> Work </a></li>
             <li> <a class = "effect-1" href= "#"> Contact</a></li>
         </ul>
@@ -42,14 +42,17 @@
         <div id="pf-header-sidenav" class="overlay">
             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
             <div class="overlay-content">
-                <a href="#">HOME</a>
-                <a href="#">ABOUT</a>
+                <a href="#home-outer">HOME</a>
+                <a href="#about-outer">ABOUT</a>
                 <a href="#">WORK</a>
                 <a href="#">CONTACT</a>
             </div>
         </div>
           
         <span class = "pf-header-sidenav-button" onclick="openNav()">&#9776; 
+        </span>
+
+        <span id = "home-outer">
         </span>
 
         <section id = "home">
@@ -79,6 +82,8 @@
 
     </section>
     
+    <span id = "about-outer">
+    </span>
 
     <section id = "about">
         
