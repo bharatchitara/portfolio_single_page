@@ -458,7 +458,7 @@ span {
 }
 
 .tech{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     height: 175px;
     position: relative;
     top: -130px;
@@ -467,13 +467,15 @@ span {
 
 .techs1{
     display: inline-block;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     color: #fff;
-    width: 20%;
+    width: 40%;
     position: relative;
     top: 0px;
-    left: 510px;
+    left: 0px;
+    /* left: 510px; */
     text-align: left;
+    float: right;
     
 }
 
@@ -487,11 +489,12 @@ span {
 
 .techs2{
     display: inline-block;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     color: #fff;
-    width: 20%;
+    width: 30%;
     position: relative;
-    left: 580px; 
+    left: 0%; 
+    float: right;
     text-align: left;
 }
 
