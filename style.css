@@ -395,13 +395,13 @@ span {
         float: left;
         position: relative;
         left: 72px;
-        top: 180px;
+        top: 240px;
         
     }
     
     .avatar-ph {
         border-radius: 50%;
-        max-width: 400px;
+        max-width: 350px;
         height: auto;
         margin: 0 auto;
         
