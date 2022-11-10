@@ -463,6 +463,22 @@ span {
 }
 
 
+.about_header{
+    padding: 5px;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 700;
+    position: relative;
+    top: -200px;
+    left:72px;
+}
+
+.about_header img{
+    margin-bottom: 5px;
+}
+
+
+
 .about-text-box{
     color: #fff;
     width: 90%;
@@ -530,5 +546,59 @@ span {
 /* about page css ends-*/ 
 
 
+#gallery{
+    position: relative;
+    top: 230px;
+
+}
+
+.work_header{
+    padding: 5px;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 700;
+    position: relative;
+    top: 200px;
+    left:72px;
+}
+
+.work_header img{
+    margin-bottom: 5px;
+}
+
+
+#gallery .container{
+    max-width: 1080px;
+} 
+
+#gallery .card {
+    padding: 1.6em 1em;
+
+}
+
+/* #gallery .card2 {
+    position: relative;
+    top: 50px;
+} */
+
+
+
+#gallery .card-title{
+    font-size: 30px;
+}
+
+#gallery .card-text{
+    font-size: 14px;
+}
+
+
+#gallery .work-link{
+    font-size: 16px;
+}
+
+
+#gallery .subtext{
+    font-size: 16px;
+}
 
 
