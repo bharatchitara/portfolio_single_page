@@ -552,8 +552,11 @@ span {
 
 }
 
+
+
 .work_header{
     padding: 5px;
+    /* border: 1PX solid red; */
     color: #fff;
     font-size: 30px;
     font-weight: 700;
